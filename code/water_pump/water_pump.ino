@@ -6,11 +6,10 @@ void setup() {
 }
 
 void loop() {
-  //turn pump off then wait 500ms
-  digitalWrite(pump, LOW); 
-  delay(500);
+ 
+ 
 
-  //turn pump on then wait 500ms 
-  digitalWrite(pump, HIGH); 
-  delay(500);
+  digitalWrite(pump,LOW); 
+
+
 }
